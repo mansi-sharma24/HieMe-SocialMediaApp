@@ -1,5 +1,6 @@
 # HieMe-SocialMediaApp
-HieMe is an Social Media Application which is used to connect the people by knowing their profession and area of interest.It helps to connect with every individual who have signUp in this application. I have used Java , Firebase and libraries for making this application.
+HieMe is an Social Media Application which is used to connect the people by knowing their profession and area of interest.It helps to connect with every individual who have signUp in this application. I have used Java , Firebase and libraries for making this application.<br><br>
+You can see in the image below : <br>
 <br><img width="300" height="600" alt="logIn View" src="https://user-images.githubusercontent.com/73280986/148384632-9af0e6ed-88f1-44bd-8077-00304d9cbd05.jpeg">
 <img width="300" height="600" alt="SignUp View" src="https://user-images.githubusercontent.com/73280986/148386239-6cebf839-2068-4cac-a1d1-79e0d2a9ac63.jpg">
 <img width="300" height="600" alt="Home View" src="https://user-images.githubusercontent.com/73280986/148386854-24169d7d-8c98-4f12-948d-849ca80356be.jpg">
