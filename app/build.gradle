@@ -1,0 +1,71 @@
+plugins {
+    id 'com.android.application'
+    id 'com.google.gms.google-services'
+
+}
+
+android {
+    compileSdk 31
+
+    defaultConfig {
+        applicationId "com.example.hieme"
+        minSdk 21
+        targetSdk 31
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    buildFeatures{
+        viewBinding true
+    }
+}
+
+
+dependencies {
+
+    implementation 'androidx.appcompat:appcompat:1.4.0'
+    implementation 'com.google.android.material:material:1.4.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.2'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+    //readable bottom navigation
+    implementation 'com.github.iammert:ReadableBottomBar:0.2'
+    //cicular Image View
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
+    //dynamic size
+    implementation 'com.github.MrNouri:DynamicSizes:1.0'
+    //rounded image view
+    implementation 'com.makeramen:roundedimageview:2.3.0'
+    //diagonal Layout
+    implementation 'com.github.florent37:diagonallayout:1.0.9'
+    //firebase
+    implementation platform('com.google.firebase:firebase-bom:29.0.3')    // Import the BoM for the Firebase platform
+    implementation 'com.google.firebase:firebase-analytics'
+    implementation 'com.google.firebase:firebase-auth'    // When using the BoM, you don't specify versions in Firebase library dependencies
+    implementation 'com.google.firebase:firebase-database'        //realtime database firebase
+    implementation 'com.google.firebase:firebase-core:20.0.2'
+    implementation 'com.google.firebase:firebase-storage'
+    //picasso
+    implementation 'com.squareup.picasso:picasso:2.71828'
+    //time ago
+    implementation 'com.github.marlonlom:timeago:4.0.3'
+    //circular story view
+    implementation 'com.github.3llomi:CircularStatusView:V1.0.2'
+    //story view
+    implementation 'com.github.OMARIHAMZA:StoryView:1.0.2-alpha'
+
+}

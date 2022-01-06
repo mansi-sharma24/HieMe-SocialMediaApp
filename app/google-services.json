@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "205022053163",
+    "firebase_url": "https://hieme-socialmediaapp-default-rtdb.firebaseio.com",
+    "project_id": "hieme-socialmediaapp",
+    "storage_bucket": "hieme-socialmediaapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:205022053163:android:adf65614366447b01b7b6e",
+        "android_client_info": {
+          "package_name": "com.example.hieme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "205022053163-pioomofnqbg2j3urcooo22l4idto2k0o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAT6kuGudMHlwmp_tqhb9HeK01NHePSxik"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "205022053163-pioomofnqbg2j3urcooo22l4idto2k0o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:205022053163:android:a8ea95c9f2cb36d61b7b6e",
+        "android_client_info": {
+          "package_name": "com.example.socialmediaapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "205022053163-pioomofnqbg2j3urcooo22l4idto2k0o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAT6kuGudMHlwmp_tqhb9HeK01NHePSxik"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "205022053163-pioomofnqbg2j3urcooo22l4idto2k0o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
